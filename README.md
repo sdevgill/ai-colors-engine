@@ -17,19 +17,26 @@ git clone git@github.com:sdevgill/ai-colors-engine.git
 cd ai-colors-engine
 ```
 
-2. Install the requirements.
+2. Create an .env file and add your OpenAI API key as shown in the .env.example file.
+
+```
+cp .env.example .env
+```
+
+
+3. Install the requirements.
 
 ```
 poetry install
 ```
 
-3. Activate the virtual environment.
+4. Activate the virtual environment.
 
 ```
 poetry shell
 ```
 
-4. Run the application.
+5. Run the application.
 
 ```
 cd server
