@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 from dotenv import dotenv_values
 import json
 
-config = dotenv_values(".env")
+config = dotenv_values("../.env")
 openai.api_key = config["OPENAI_API_KEY"]
 
 
@@ -50,7 +50,8 @@ def prompt_to_palette():
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    # return render_template("index.html")
+    return "Hello World"
 
 
 if __name__ == "__main__":
