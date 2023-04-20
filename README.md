@@ -1,6 +1,40 @@
-# AI Colors Palette Generator
+# AI Colors Engine
 
-The AI Colors Palette Generator is a simple tool that generates color palettes in HEX format based on text descriptions. It uses an OpenAI's models. The AI model can generate palettes with 2 to 8 colors that fit the theme, mood, or instructions provided in the prompt.
+The AI Colors Engine is a simple tool that generates color palettes in HEX format based on text descriptions. It uses  penAI's text-davinci-003 model.
+The AI model can generate palettes with 2 to 8 colors that fit the theme, mood, or instructions provided in the prompt.
+
+## Requirements
+
+- Python ^3.11
+- Poetry ^1.4.0
+
+## Installation
+
+1. Clone the repository and navigate to the project directory.
+
+```
+git clone git@github.com:sdevgill/ai-colors-engine.git
+cd ai-colors-engine
+```
+
+2. Install the requirements.
+
+```
+poetry install
+```
+
+3. Activate the virtual environment.
+
+```
+poetry shell
+```
+
+4. Run the application.
+
+```
+cd server
+flask run --debug
+```
 
 ## Features
 
@@ -19,12 +53,16 @@ The AI Colors Palette Generator is a simple tool that generates color palettes i
 
 Input:
 ```
+
 Generate a color palette for a calm and relaxing beach scene.
+
 ```
 
 Output:
 ```
+
 # D9E4F5 #3A7CA5 #7EBDC2 #F2D1B3 #F0EFEA
+
 ```
 
 ## Tips
@@ -35,4 +73,4 @@ Output:
 
 ## License
 
-The AI Colors Palette Generator is released under the MIT License.
+The AI Colors Engine is released under the MIT License.
