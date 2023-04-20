@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "ai-colors-generator"
+name = "ai-colors-engine"
 version = "0.1.0"
-description = "AI Colors Generator"
+description = "AI Colors Engine"
 authors = ["Dev Gill <26435947+sdevgill@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "ai_colors_generator"}]
+packages = [{include = "ai_colors_engine"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
