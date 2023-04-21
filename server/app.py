@@ -1,9 +1,11 @@
 import openai
 from flask import Flask, render_template, request
+from pathlib import Path
 from dotenv import dotenv_values
 import json
 
-config = dotenv_values("../.env")
+dotenv_file_path = Path(__file__).parent.parent / ".env"
+config = dotenv_values(dotenv_file_path)
 openai.api_key = config["OPENAI_API_KEY"]
 
 
