@@ -41,8 +41,7 @@ poetry shell
 5. Run the application.
 
 ```
-cd server
-flask run --debug
+flask run
 ```
 
 ## Features
