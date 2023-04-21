@@ -1,7 +1,9 @@
 # AI Colors Engine
 
-The AI Colors Engine is a simple tool that generates color palettes in HEX format based on text descriptions. It uses  penAI's text-davinci-003 model.
+The AI Colors Engine is a simple tool that generates color palettes in HEX format based on text descriptions. It uses OpenAI's text-davinci-003 model.
 The AI model can generate palettes with 2 to 8 colors that fit the theme, mood, or instructions provided in the prompt.
+
+Live Demo: [https://ai-colors-engine.herokuapp.com/](https://ai-colors-engine.herokuapp.com/)
 
 ## Requirements
 
